@@ -6,7 +6,7 @@ export default {
             "always",
             ["feat", "fix", "docs", "style", "refactor", "test", "chore", "revert"],
         ],
-        "scope-empty": [2, "always"],
+        "scope-empty": [2, "never"],
         "scope-case": [2, "always", "lower-case"],
         "subject-case": [2, "always", "lower-case"],
         "subject-max-length": [2, "always", 72],
