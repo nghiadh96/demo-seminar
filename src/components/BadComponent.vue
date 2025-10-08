@@ -15,7 +15,7 @@ name:'BadComponent',
 data(){
 return {
 title:"Hello World",
-message:'This is a message',
+message:'This is a message a new error',
 condition:true,
 unusedData:"not used anywhere"
 }
