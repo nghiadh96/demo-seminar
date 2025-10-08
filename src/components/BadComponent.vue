@@ -10,37 +10,37 @@
 </template>
 
 <script>
-    export default {
-        name: "BadComponent",
-        data() {
-            return {
-                title: "Hello World",
-                undefinedVariable: "not defined",
-                message: "This is a message",
-                condition: true,
-                unusedData: "not used anywhere",
-            };
+export default {
+    name: "BadComponent",
+    data() {
+        return {
+            title: "Hello World",
+            undefinedVariable: "not defined",
+            message: "This is a message",
+            condition: true,
+            unusedData: "not used anywhere",
+        };
+    },
+    methods: {
+        handleClick() {},
+        unusedMethod() {
+            return "unused method";
         },
-        methods: {
-            handleClick() {},
-            unusedMethod() {
-                return "unused";
-            },
+    },
+    computed: {
+        unusedComputed() {
+            return "unused computed";
         },
-        computed: {
-            unusedComputed() {
-                return "unused computed";
-            },
-        },
-    };
+    },
+};
 </script>
 
 <style>
-    .bad-component {
-        color: red;
-        background-color: blue;
-        margin: 10px;
-        padding: 5px;
-    }
+.bad-component {
+    color: red;
+    background-color: blue;
+    margin: 10px;
+    padding: 5px;
+}
 </style>
 // test comment
