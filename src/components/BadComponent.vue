@@ -19,6 +19,7 @@ export default {
             message: "This is a message",
             condition: true,
             unusedData: "not used anywhere",
+            unusedLet: "not used",
             unusedArray: [1, 2, 3, 4, 5],
         };
     },
