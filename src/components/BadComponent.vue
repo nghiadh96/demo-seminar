@@ -15,6 +15,7 @@
         data() {
             return {
                 title: "Hello World",
+                undefinedVariable: "not defined",
                 message: "This is a message",
                 condition: true,
                 unusedData: "not used anywhere",
