@@ -1,12 +1,12 @@
 <template>
-  <div class="error-component">
-  <h1>{{ title }}</h1>
-    <button @click="handleClick">Click me</button>
-    <p>{{ message }}</p>
-  <div v-for="item in items" :key="item.id">
-      {{ item.name }}
-  </div>
-  </div>
+<div class="error-component">
+<h1>{{ title }}</h1>
+<button @click="handleClick">Click me</button>
+<p>{{ message }}</p>
+<div v-for="item in items" :key="item.id">
+{{ item.name }}
+</div>
+</div>
 </template>
 
 <script>
@@ -21,7 +21,8 @@ export default {
         { id: 2, name: "Item 2" }
       ],
       unusedData: 'This will trigger unused-vars error',
-      anotherUnusedVar: 42
+      anotherUnusedVar: 42,
+      color: ["red", "blue", "green"]
     }
   },
   methods: {
